@@ -7,7 +7,7 @@ public class Testrunner {
     public void abc()
 {
 
-    System.out.println("This is test branch");
+    System.out.println("This is master branch");
     System.out.println("This will be executed using jenkins");
     System.out.println("This will be additional line");
     System.out.println("This will be additional line2 end of line...");
