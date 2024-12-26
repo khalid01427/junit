@@ -18,6 +18,7 @@ pipeline {
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                               echo "Branch Name :--" + env.BRANCH_NAME
 				bat "mvn clean test"
             }
 
